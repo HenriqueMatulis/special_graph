@@ -286,16 +286,4 @@ def matrix_equal(matrix1: List[List[Optional[int]]], matrix2: List[List[Optional
 if __name__ == "__main__":
     import doctest
     doctest.testmod()
-    matrix = [
-        [1,    2,    None, None],
-        [None, 3,    4,    5],
-        [None, None, 6   , None],
-        [None, None, 7   , 8   ],
-    ]
-    dict_ = graph_from_matrix(matrix)
-    for v in dict_:
-        print(v, dict_[v])
-    graph = SpecialGraph(dict_)
-    result_matrices = graph.to_sparse_matrices()
-    print(result_matrices[0])
 
