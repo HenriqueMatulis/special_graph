@@ -7,7 +7,7 @@ Then to get the graph isomorphism, we simply do represent both graphs as matrice
 check the matrices against each other accounting for all symmetries of the cube.
 
 Example usage
-```
+```python
 >>> import special_graph
 
 >>> adj_list1 = {1: {(1, 0): 2},  2: {(0, 1): 3}, 3: {(-1, 0): 4}}
